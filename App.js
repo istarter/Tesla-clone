@@ -9,6 +9,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <CarsList />
+      {/* appi call */}
       <StatusBar style="auto" />
     </View>
   );
