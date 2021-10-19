@@ -9,7 +9,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <CarsList />
-      {/* hicvb */}
+      {/* werthjk */}
       <StatusBar style="auto" />
     </View>
   );
