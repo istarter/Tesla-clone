@@ -10,6 +10,7 @@ export default function App() {
     <View style={styles.container}>
       <CarsList />
       {/* appi call */}
+      {/* Database */}
       <StatusBar style="auto" />
     </View>
   );
