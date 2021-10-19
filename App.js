@@ -9,6 +9,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <CarsList />
+      {/* hicvb */}
       <StatusBar style="auto" />
     </View>
   );
