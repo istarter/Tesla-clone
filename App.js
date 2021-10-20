@@ -4,13 +4,13 @@ import { StyleSheet, Text, View } from "react-native";
 import CarItem from "./components/CarItem/CarItem";
 import ModalX from "./assets/images/ModelX.jpeg";
 import CarsList from "./components/CarsList/CarsList";
+import Header from "./components/Header.js/Header";
 
 export default function App() {
   return (
     <View style={styles.container}>
+      <Header />
       <CarsList />
-      {/* appi call */}
-      {/* Database */}
       <StatusBar style="auto" />
     </View>
   );
